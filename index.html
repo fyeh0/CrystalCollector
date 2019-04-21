@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="reset" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="title-box">
+        <h1>Crystal Collector!</h1>
+    </div>
+
+    <div class="directions-box">
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>There are four crystals below. Clicking a crystal will add a specific amount of points to your total score.
+        </p>
+
+        <p>Win the game by matching your total score to the random number. Lose the game if your total score goes above
+            the
+            random number.</p>
+
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+
+        <p>Each time a new game starts, the game will change the value of each crystal.</p>
+    </div>
+
+    <div class="random-number">
+        <h1 id="number-generator"></h1>
+    </div>
+    
+    <div class="scoreboard">
+        <p>Wins:</p>
+        <p>Losses:</p>
+    </div>
+
+    <div class="crystals">
+        <img src="assets/images/amethyst.png" alt="amethyst button">
+        <img src="assets/images/aquamarine.png" alt="aquamarine button">
+        <img src="assets/images/peridot.png" alt="peridot button">
+        <img src="assets/images/ruby.png" alt="ruby button">
+    </div>
+
+    <div class="text-box">
+        <p>Your total score is:</p>
+    </div>
+
+    <div class="your-number">
+        ###
+    </div>
+
+    <script type="text/javascript" src="/assets/javascript/game.js"></script>
+</body>
+
+</html>

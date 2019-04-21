@@ -1,0 +1,52 @@
+body {
+    background: url(../images/seigaiha.png);
+}
+
+#title-box {
+    width: max-content;
+    padding: 12px 4px 12px 4px;
+    background-color: darkcyan;
+}
+
+.directions-box {
+    background-color: skyblue;
+    width: 500px;
+    padding: 5px 4px 120px 4px;
+    margin: 8px 0px 8px 0px;
+}
+
+.random-number {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 180px;
+    float: left;
+    margin-right: 8px;
+}
+
+.scoreboard {
+    background-color: lightblue;
+    padding-left: 4px;
+    height: 100px;
+    width: 65px;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.crystals {
+    clear: both;
+}
+
+.text-box {
+    background-color: deepskyblue;
+    box-sizing: border-box;
+    padding: 1px 0 1px 4px;
+    width: 180px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.your-number {
+    background-color: deepskyblue;
+    height: 100px;
+    width: 180px;
+}
