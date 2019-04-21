@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="reset" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
     </div>
 
     <div class="random-number">
-        <h1 id="number-generator"></h1>
+        <h1><span id="number-generator">?</span></h1>
     </div>
     
     <div class="scoreboard">
@@ -40,10 +41,10 @@
     </div>
 
     <div class="crystals">
-        <img src="assets/images/amethyst.png" alt="amethyst button">
-        <img src="assets/images/aquamarine.png" alt="aquamarine button">
-        <img src="assets/images/peridot.png" alt="peridot button">
-        <img src="assets/images/ruby.png" alt="ruby button">
+        <img src="assets/images/amethyst.png" id="amethyst" alt="amethyst button">
+        <img src="assets/images/aquamarine.png" id="aquamarine" alt="aquamarine button">
+        <img src="assets/images/peridot.png" id="peridot" alt="peridot button">
+        <img src="assets/images/ruby.png" id="ruby" alt="ruby button">
     </div>
 
     <div class="text-box">
@@ -51,7 +52,7 @@
     </div>
 
     <div class="your-number">
-        ###
+        <h1 id="guess">?</h1>
     </div>
 
     <script type="text/javascript" src="/assets/javascript/game.js"></script>
