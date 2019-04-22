@@ -1,42 +1,56 @@
-$(document).ready(function () {
+$(document).ready(function () { 
 
     // variables
     var wins = 0;
     var losses = 0;
     var randomNumber = Math.floor(Math.random() * 120);
+    var amethyst = Math.floor(Math.random() * 12);
+    var aquamarine = Math.floor(Math.random() * 12);
+    var peridot = Math.floor(Math.random() * 12);
+    var ruby = Math.floor(Math.random() * 12);
 
-    /* 
-    $("#number-generator").text("click", function() {
-        var randomNumber = Math.floor(Math.random() * 120);
-        console.log(randomNumber);
-    });*/
-
-    // random number generator
-    console.log("Random number is " + randomNumber);
-
+    // var buttonValue = 
+    // new variable - assign random value to each crystal button
     var userGuess = 0
 
+    // random number generator
     $("#number-generator").text(randomNumber);
-    
+    console.log("Random number is " + randomNumber);
+
+
+    // generates random value for each button
     $("#amethyst").on("click", function () {
-        userGuess = $(Math.floor(Math.random() * 12));
-        console.log(userGuess);
+        $("#user-guess").text(amethyst);
+        console.log(amethyst);
     })
 
-    $("#aquamarine").click(function () {
-        console.log($(this).val());
+    $("#aquamarine").on("click", function () {
+        $("#user-guess").text(aquamarine);
+        console.log(aquamarine);
     })
 
     $("#peridot").click(function () {
-        console.log($(this).val());
+        $("#user-guess").text(peridot);
+        console.log(peridot);
     })
 
     $("#ruby").click(function () {
-        console.log($(this).val());
+        $("#user-guess").text(ruby);
+        console.log(ruby);
     })
 
-    // if user guesses correct (user guess === randomnumber), win++ and game restarts
-    // if user guesses wrong (user guess != randomenumber), losses++ and game restarts
+    // game
+    if (userGuess >= randomNumber) {
+        alert("You lose!");
+        losses++;
+    } else if (userGuess === randomNumber) {
+        alert("You win!");
+        wins++;
+    }
+
+    //conditional statement 
+    //if userguess is greater or equal to random number, user loses, adds a loss, game restarts
+    //if userguess is equal to random number, user gets a point, new game begins
 
     // game start, random number generated
     // user crystal clicks generate random value
