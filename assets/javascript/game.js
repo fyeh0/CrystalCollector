@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    // variables
+    // setting initial starting variables
     var wins = 0;
     var losses = 0;
     var randomNumber = Math.floor(Math.random() * 120);
@@ -9,7 +9,7 @@ $(document).ready(function () {
     var peridot = Math.floor(Math.random() * 12);
     var ruby = Math.floor(Math.random() * 12);
     var userGuess = 0;
-
+    
     function startGame() {
         randomNumber = Math.floor(Math.random() * 120);
         amethyst = Math.floor(Math.random() * 12);
