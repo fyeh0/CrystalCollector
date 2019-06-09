@@ -12,49 +12,53 @@
 </head>
 
 <body>
-    <div id="title-box">
-        <h1>Crystal Collector!</h1>
-    </div>
+        <div id="title-box">
+            <h1>Crystal Collector!</h1>
+        </div>
 
-    <div class="directions-box">
-        <p>You will be given a random number at the start of the game.</p>
+        <div class="directions-box">
+            <p>You will be given a random number at the start of the game.</p>
 
-        <p>There are four crystals below. Clicking a crystal will add a specific amount of points to your total score.
-        </p>
+            <p>There are four crystals below. Clicking a crystal will add a specific amount of points to your total
+                score.
+            </p>
 
-        <p>Win the game by matching your total score to the random number. Lose the game if your total score goes above
-            the
-            random number.</p>
+            <p>Win the game by matching your total score to the random number. Lose the game if your total score goes
+                above
+                the
+                random number.</p>
 
-        <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
 
-        <p>Each time a new game starts, the game will change the value of each crystal.</p>
-    </div>
+            <p>Each time a new game starts, the game will change the value of each crystal.</p>
+        </div>
 
-    <div class="random-number">
-        <h1><span id="number-generator">?</span></h1>
-    </div>
-    
-    <div class="scoreboard">
-        <p>Wins: <span id="win"></span></p>
-        <p>Losses: <span id="lose"></span></p>
-    </div>
+        <div id="score-and-tally">
+            <div class="random-number">
+                <h1><span id="number-generator">?</span></h1>
+            </div>
 
-    <div class="crystals">
-        <img src="assets/images/amethyst.png" id="amethyst" alt="amethyst button">
-        <img src="assets/images/aquamarine.png" id="aquamarine" alt="aquamarine button">
-        <img src="assets/images/peridot.png" id="peridot" alt="peridot button">
-        <img src="assets/images/ruby.png" id="ruby" alt="ruby button">
-    </div>
+            <div class="scoreboard">
+                <p>Wins: <span id="win"></span></p>
+                <p>Losses: <span id="lose"></span></p>
+            </div>
+        </div>
 
-    <div class="text-box">
-        <p>Your total score is:</p>
-    </div>
+        <div class="crystals">
+            <img src="assets/images/amethyst.png" id="amethyst" alt="amethyst button">
+            <img src="assets/images/aquamarine.png" id="aquamarine" alt="aquamarine button">
+            <img src="assets/images/peridot.png" id="peridot" alt="peridot button">
+            <img src="assets/images/ruby.png" id="ruby" alt="ruby button">
+        </div>
 
-    <div class="your-number">
-        <h1><span id="user-guess">0</span></h1>
-    </div>
+        <div class="text-box">
+            <p>Your total score is:</p>
+        </div>
 
+        <div class="your-number">
+            <h1><span id="user-guess">0</span></h1>
+        </div>
+        
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
