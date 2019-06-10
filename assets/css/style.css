@@ -1,0 +1,72 @@
+body {
+    background: url(../images/seigaiha.png);
+}
+
+#title-box {
+    margin: 35px auto 5px auto;
+}
+
+.directions-box,
+.text-box,
+.your-number {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#title-box {
+    width: max-content;
+    padding: 12px 4px 12px 4px;
+    background-color: lightsteelblue;
+}
+
+.directions-box {
+    background-color: skyblue;
+    width: 500px;
+    padding: 5px 4px 120px 4px;
+}
+
+.random-number {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 180px;
+    display: inline-block;
+}
+
+.scoreboard {
+    background-color: lightblue;
+    padding-left: 4px;
+    height: 100px;
+    width: 75px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.score-and-tally {
+    margin: auto;
+    text-align:center;
+}
+
+#amethyst,
+#aquamarine,
+#peridot,
+#ruby {
+    display: inline-block;
+    margin-top: 5px;
+}
+.crystals {
+    text-align:center;
+}
+
+.text-box {
+    background-color: deepskyblue;
+    box-sizing: border-box;
+    padding: 1px 0 1px 4px;
+    width: 180px;
+}
+
+.your-number {
+    background-color: deepskyblue;
+    height: 100px;
+    width: 180px;
+}
