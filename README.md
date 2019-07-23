@@ -33,5 +33,5 @@ Interactive web browser game built for the Georgia Tech Full-Stack Web Developme
 
 ### Links
 
-- [Repo](https://fyeh0.github.io/unit-4-game/)
-- [Github](https://github.com/fyeh0)
+- [Github](https://github.com/fyeh0/CrystalCollector)
+- [Deployed](https://fyeh0.github.io/CrystalCollector/)
