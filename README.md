@@ -1,10 +1,14 @@
 # Crystal Collector
 
+![Crystal Collector screenshot](assets/images/CrystalCollector.png)
+
 Interactive web browser game built for the Georgia Tech Full-Stack Web Development Bootcamp.
 
 ### Technologies Used
 
-- jQuery
+- HTML
+- CSS
+- JavaScript/jQuery
 
 ### Game Overview
 
